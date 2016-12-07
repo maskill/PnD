@@ -1,0 +1,10 @@
+PnD power ups:
+*	ShockWave: a red ring is spawned when any target is destroyed and destroys any nearby targets close enough to the source. The range of explosion can be further upgraded.
+	IGT: With each target destroyed a shockwave is created and any other targets within it's range will be destroyed. *The range of shockwave will increase with upgrades*
+	
+* Time+ Targets: A new type of target is spawned and adds "X" amount of time to the clock when it's destroyed. The amount of time added will increase when upgraded.
+
+* X% gains: gain and extra "X%" from all targets destroyed. Percentage will increase when upgraded.
+
+
+IGT  = in game text
