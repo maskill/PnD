@@ -10,7 +10,7 @@ var points = 0;
 
 
 var maxTime = 60;
-var time = 60; // In minutes
+var time = 60; // In seconds
 var timerFill = 0; //time/255;
 
 var timer = setInterval(function(){
@@ -91,10 +91,10 @@ function shop(){
 //****************************************************************************
 window.onload = function(){
 	console.log("rdy");
-	//mainMenu();
-	//pauseGame();
-	//spawnObjects(true, true, true, true);
-	shop();
+	mainMenu();
+	pauseGame();
+	spawnObjects(true, true, true, true);
+	//shop();
 	
 };
 

@@ -1,10 +1,39 @@
+//IGT  = in game text//
+
 PnD power ups:
 *	ShockWave: a red ring is spawned when any target is destroyed and destroys any nearby targets close enough to the source. The range of explosion can be further upgraded.
-	IGT: With each target destroyed a shockwave is created and any other targets within it's range will be destroyed. *The range of shockwave will increase with upgrades*
+	IGT: With each target destroyed a shockwave is created and any other targets within it's range will be destroyed. *The range of the shockwave will increase with upgrades*
 	
-* Time+ Targets: A new type of target is spawned and adds "X" amount of time to the clock when it's destroyed. The amount of time added will increase when upgraded.
+* Add Time: A new type of target is spawned and adds "X" amount of time to the clock when it is destroyed. The amount of time added will increase when upgraded.
 
-* X% gains: gain and extra "X%" from all targets destroyed. Percentage will increase when upgraded.
+* Bonus: You gain an extra "X%" from all targets destroyed. Percentage will increase when upgraded.
+
+* ???:
 
 
-IGT  = in game text
+
+shockwave info code:
+<g id="shockwaveInfo">
+	<rect x="20%" y="25%" width="250" height="70" fill="#a6a6a6" stroke="#333" stroke-width="1px"/>
+	<text class="itemInfo" x="21%" y="28%">With each target destroyed a shockwave is</text>
+	<text class="itemInfo" x="21.5%" y="30%"> created and any other targets within it's</text>
+	<text class="itemInfo" x="21.5%" y="32%">range will be destroyed.</text>
+	<text class="miniInfo" x="21%" y="34%">*The range of the shockwave will increase with upgrades*</text>
+</g>
+
+add time info code:
+<g id="addTimeInfo">
+	<rect x="40%" y="25%" width="250" height="70" fill="#a6a6a6" stroke="#333" stroke-width="1px"/>
+	<text class="itemInfo" x="41%" y="28%">A new type of target is spawned and adds </text>
+	<text class="itemInfo" x="41.5%" y="30.5%">"X" amount of time to the clock when it is</text>
+	<text class="itemInfo" x="41.5%" y="33%">destroyed.</text>
+	<text class="miniInfo" x="41%" y="35.5%">*The amount of time added will increase when upgraded*</text>
+</g>
+
+<g id="bonusInfo">
+	<rect x="40%" y="25%" width="250" height="70" fill="#a6a6a6" stroke="#333" stroke-width="1px"/>
+	<text class="itemInfo" x="41%" y="28%">A new type of target is spawned and adds </text>
+	<text class="itemInfo" x="41.5%" y="30.5%">"X" amount of time to the clock when it is</text>
+	<text class="itemInfo" x="41.5%" y="33%">destroyed.</text>
+	<text class="miniInfo" x="41%" y="35.5%">*The amount of time added will increase when upgraded*</text>
+</g>
