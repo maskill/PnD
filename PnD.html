@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+    	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"> 
+   		<title>D3 Game(100% D3)</title>
+   		<link rel="stylesheet" type="text/css" href="CSS/PnD.css">
+      <!--<script src="lib/jquery-2.1.4.min.js"></script>-->
+	    <script src="lib/d3.min.js"></script>
+		<script src="Js/PnD.js"></script>
+	</head>
+
+	<body>
+		<svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 480" preserveAspectRatio="xMinYMin meet" style="position:absolute; z-index:0;">
+
+	  	<rect id="bg" x="0" y="0" width="640" height="480" fill="#989"/>
+	  	
+	  	<g id="Menu" opacity="1.0"></g>
+
+			<!--<g id="Shop" opacity="1.0">
+			
+				<rect id="shopBg" x="10%" y="10%" width="80%" height="80%" fill="#347089" stroke="#000" stroke_width="1px"/>
+				
+				<text class="gameText" x="40%" y="15%">Items & Power ups</text>
+				<text class="gameText" x="39.7%" y="14.5%">________________</text>
+				
+				<g id="shockwave">
+					<text class="gameText" x="14.2%" y="21%">ShockWave</text>
+					<rect x="12.5%" y="21.5%" width="15%" height="15%" fill="#ddd" stroke="#000" stroke_width="1px"/>
+					<path id="shock" d="M10,8 C8.9,8 8,8.9 8,10 C8,11.1 8.9,12 10,12 C11.1,12 12,11.1 12,10 C12,8.9 11.1,8 10,8 L10,8 Z M16,10 C16,6.7 13.3,4 10,4 C6.7,4 4,6.7 4,10 C4,12.2 5.2,14.1 7,15.2 L8,13.5 C6.8,12.8 6,11.5 6,10.1 C6,7.9 7.8,6.1 10,6.1 C12.2,6.1 14,7.9 14,10.1 C14,11.6 13.2,12.9 12,13.5 L13,15.2 C14.8,14.1 16,12.2 16,10 L16,10 Z M10,0 C4.5,0 0,4.5 0,10 C0,13.7 2,16.9 5,18.6 L6,16.9 C3.6,15.5 2,12.9 2,10 C2,5.6 5.6,2 10,2 C14.4,2 18,5.6 18,10 C18,13 16.4,15.5 14,16.9 L15,18.6 C18,16.9 20,13.6 20,10 C20,4.5 15.5,0 10,0 L10,0 Z"/>
+		
+					<circle cx="14%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="18%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="22%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="26%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+				</g>
+				
+				
+				<g id="addTime">
+					<text class="gameText" x="34.8%" y="21%">Add Time</text>
+					<rect x="32.5%" y="21.5%" width="15%" height="15%" fill="#ddd" stroke="#000" stroke_width="1px"/>
+		
+					<circle cx="34%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="38%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="42%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="46%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+				</g>				
+				
+				
+				<g id="bonus">
+					<text class="gameText" x="53.3%" y="21%">Bonus Points</text>
+					<rect x="52.5%" y="21.5%" width="15%" height="15%" fill="#ddd" stroke="#000" stroke_width="1px"/>
+		
+					<circle cx="54%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="58%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="62%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="66%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+				</g>
+				
+				
+				<g id="X2">
+					<text class="gameText" x="73.3%" y="21%">Bonus Points</text>
+					<rect x="72.5%" y="21.5%" width="15%" height="15%" fill="#ddd" stroke="#000" stroke_width="1px"/>
+		
+					<circle cx="74%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="78%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="82%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+					<circle cx="86%" cy="39%" r="7" stroke="#000" stroke-width="1px" fill="#000000"/>
+				</g>
+				
+				
+				<g id="info">
+				</g>
+
+
+			</g>-->
+			
+			<g id="targets"></g>
+			
+			<g id="stats" opacity="0.0"></g>
+    	
+   		<g id="pauseMenu" opacity="0.0"></g>
+    	
+  	</svg>
+	</body>
+</html>

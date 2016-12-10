@@ -1,0 +1,40 @@
+/*CSS by Lindelle Anglin*/
+
+.gameText{
+  text-align: center;
+  font-size: 16px;
+  font-family: "Times New Roman";
+}
+
+.itemInfo{
+  text-align: justify;
+  font-size: 11px;
+  font-family: "Times New Roman";
+}
+
+.miniInfo{
+  text-align: justify;
+  font-size: 8px;
+  font-family: "Times New Roman";
+}
+
+#menu{
+  background: #E1E7E8;
+  width: 15%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+#content{
+  color: #0000FA;
+  background: #FFF;
+  width: 85%;
+  height: 100%;
+  /*float: left;*/
+  text-align: center; /*justify: look like book or newspaper*/
+}
+
+#title{
+  font-size: 25px;	
+}
